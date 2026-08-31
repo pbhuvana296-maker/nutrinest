@@ -1,7 +1,7 @@
 {
   "name": "nutrinest",
   "private": true,
-  "homepage":"https://github.com/pbhuvana296-maker/nutrinest/",
+  "homepage": "https://github.com/pbhuvana296-maker/nutrinest/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,10 +9,13 @@
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "depoly":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
+    "gh-pages": "^6.3.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-router-dom": "^7.18.3"
